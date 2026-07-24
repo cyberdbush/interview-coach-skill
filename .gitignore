@@ -7,6 +7,9 @@ coaching_state.md
 # Personal interview materials (resume, transcripts, company folders)
 materials/
 
+# Personal profile data (resume, achievements, target roles, coaching preferences)
+profile/
+
 # Active skill file (created by copying SKILL.md during setup)
 CLAUDE.md
 coaching_state.md

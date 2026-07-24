@@ -1,11 +1,17 @@
 # concerns — Concern Anticipation Workflow
 
+### Profile File Check
+
+Before starting the sequence, check `profile/resume.md`. If Resume Analysis is missing from `coaching_state.md` (kickoff hasn't been run), read `profile/resume.md` directly and derive concerns from the raw resume text — gaps, short tenures, domain switches, seniority mismatches, missing keywords. This allows `concerns` to generate data-grounded output even without a prior kickoff session.
+
+Also check `profile/achievements.md`. If it exists, use it to surface counter material: achievements listed there that directly contradict a concern (e.g., a concern about "limited scope" countered by a specific, unresumé'd win) should be flagged: "This achievement isn't on your resume but directly counters this concern — consider using it."
+
 ### Sequence
 
 1. Ask candidate what concerns they expect.
 2. Validate correct concerns.
 3. **Generate concerns from real data** — don't work in a vacuum. Pull from:
-   - Resume analysis (career gaps, short tenures, domain switches, seniority mismatches — from kickoff)
+   - Resume analysis (career gaps, short tenures, domain switches, seniority mismatches — from kickoff or `profile/resume.md` directly if kickoff hasn't run)
    - Storybank gaps (competencies with no strong story)
    - Previous analyze results (patterns and weak dimensions)
    - The specific role/company (does the JD require something the candidate lacks?)

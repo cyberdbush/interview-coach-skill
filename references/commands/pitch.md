@@ -85,8 +85,10 @@ Pull from coaching_state.md:
 
 ### Step 2: Raw Material Extraction
 
+Before the guided conversation, check `profile/achievements.md`. If it exists, scan it for concrete wins that could anchor an earned secret — specific numbers, counterintuitive outcomes, or project context that isn't in the storybank yet. Surface the most promising items as starting points for the differentiator question rather than starting from scratch.
+
 Guided conversation, one question at a time:
-1. The differentiator question: "What do you do that other [target role] candidates at your level don't?" If storybank earned secrets exist, offer as starting points.
+1. The differentiator question: "What do you do that other [target role] candidates at your level don't?" If storybank earned secrets or `profile/achievements.md` entries exist, offer the strongest as starting points.
 2. The audience question: "Who needs to hear this pitch, and what do they care about?"
 3. The 'so what' question: "If someone heard your pitch and thought 'so what?' — what would make them change their mind?"
 

@@ -61,7 +61,10 @@ Before running the full audit, check coaching state:
 
 ### Step 1: Resume Intake
 
-Use resume from coaching state if available (kickoff captures resume text), otherwise ask. Accept any format — pasted text, copied from a doc, or described section by section. Be flexible.
+**Resume source (check in this order)**:
+1. `coaching_state.md` Resume Analysis section — if kickoff has already run and resume text was captured, use it.
+2. `profile/resume.md` — if it exists, read it directly. Confirm: "Reading your resume from profile/resume.md." Then proceed.
+3. Otherwise: ask the candidate to paste it. Accept any format — pasted text, copied from a doc, or described section by section.
 
 ### Step 2: Context Assembly
 
@@ -164,6 +167,8 @@ Rate: **Strong** / **Moderate** / **Weak**
 ### Step 6: Storybank-to-Bullet Pipeline (Standard + Deep, when storybank exists)
 
 This is where the storybank directly improves the resume. Not just flags — actionable rewrites.
+
+**Additional source**: If `profile/achievements.md` exists, load it before impact mining. Any quantified win, project, or real number in that file that doesn't appear in the current resume or storybank is a high-priority addition — flag it explicitly: "This is in your achievements file but missing from your resume: [item]."
 
 - **Impact mining**: Identify storybank outcomes (quantified results, earned secrets) that are missing from the resume. These are proven, real achievements the candidate has articulated but hasn't put on paper.
 - **Earned secret integration**: High-strength story insights (strength 3+) → candidate's summary and/or bullet rewrites. An earned secret that surfaces in an interview answer should also surface in the resume.

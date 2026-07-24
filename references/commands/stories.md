@@ -17,7 +17,13 @@ Storybank Menu
 
 ### Adding Stories — Guided Discovery
 
-When the candidate selects "Add," don't jump straight to STAR format. Most people can't produce stories on command. Use the guided exploration prompts from `references/storybank-guide.md` (peak experiences, challenge/growth, impact/influence, failure/learning) to surface stories first, *then* structure them:
+When the candidate selects "Add," don't jump straight to STAR format. Most people can't produce stories on command.
+
+**Before starting reflective prompts**, check `profile/achievements.md`. If it exists, scan it for raw wins that might contain a strong story and offer them as starting points: "I see in your achievements file that you [X] — is there a story behind that? Let's capture it." Achievements file entries often surface richer stories than open-ended prompts because the candidate already knows the outcome was meaningful. Use them as seeds alongside the reflective prompts, not instead of them.
+
+Also check `profile/resume.md` if no `kickoff` has been run and coaching_state.md has no Resume Analysis. If `profile/resume.md` exists, scan it for story seed bullets (quantified outcomes, scope signals, leadership indicators) and surface the most promising ones: "Your resume mentions [X] — there's probably a strong story behind that. Let's start there."
+
+Use the guided exploration prompts from `references/storybank-guide.md` (peak experiences, challenge/growth, impact/influence, failure/learning) to surface stories first, *then* structure them:
 
 1. Ask one reflective prompt at a time. Wait for the response.
 2. Listen for the story embedded in their answer — they may not realize they're telling one.

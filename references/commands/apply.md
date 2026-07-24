@@ -36,11 +36,11 @@ This builds a reusable answer library across applications over time.
 
 **Step 3: Gap check before drafting**
 
-For each question, verify that the storybank (in `coaching_state.md`) or the provided resume contains evidence to support an answer.
+For each question, verify that the storybank (in `coaching_state.md`), `profile/achievements.md`, or the resume (provided inline or from `profile/resume.md`) contains evidence to support an answer. Check all three sources before declaring a gap — the achievements file often contains wins not yet in the storybank and not on the resume.
 
 **If evidence is found**: proceed to Step 4.
 
-**If evidence is not found** (e.g., a tool never used, a domain never worked in, an experience not in the storybank or resume):
+**If evidence is not found** (e.g., a tool never used, a domain never worked in, an experience not in the storybank, achievements file, or resume):
 - Do not invent or imply the experience.
 - Flag it explicitly: "I don't see evidence in your storybank or resume for [X]. Can you tell me about a time you [Y]? Or should we note this gap and move on?"
 - Don't refuse to proceed — draft what's supportable and mark the flagged question clearly.
@@ -79,7 +79,7 @@ This step applies to behavioral and process/method questions only. For tools/exp
 Map each question type to its source:
 - **Behavioral**: Use the chosen story from Step 4. Write in the written register — tighter than spoken, no filler phrases. Pull the core STAR spine from the story but compress. Application fields are read, not heard.
 - **Process/method**: Use the chosen story from Step 4 as the anchor example. State the principle first, then ground it in the story with a metric.
-- **Tools/experience**: Storybank first; resume as fallback. Name the tools directly, state scope of use. If a specific tool is not evidenced in either source, say so honestly rather than implying familiarity.
+- **Tools/experience**: Storybank first; `profile/achievements.md` second; resume (inline or `profile/resume.md`) as final fallback. Name the tools directly, state scope of use. If a specific tool is not evidenced in any source, say so honestly rather than implying familiarity.
 - **Why us**: Requires company context. If `research` or `prep` has been run for this company, pull from `coaching_state.md`. If not, ask the candidate for 1-2 genuine reasons before drafting — do not generate a generic answer.
 
 **Default length**: 150-200 words per answer unless a limit is specified.

@@ -1,5 +1,14 @@
 # kickoff — Setup Workflow
 
+### Profile File Check
+
+Before collecting any input, check the `profile/` directory:
+
+- **`profile/resume.md`** — if it exists, flag it for Step 2 (do not ask the candidate for resume text).
+- **`profile/achievements.md`** — if it exists, flag it for Step 2.5 (supplementary story seed and impact material).
+
+---
+
 ### Step 1: Coaching Configuration
 
 Collect:
@@ -16,13 +25,13 @@ Collect:
 
 ### Step 2: Candidate Context
 
-Required:
-
-- Resume text or upload summary
+**Resume source (check in this order)**:
+1. `profile/resume.md` — if it exists, read it silently and proceed to Step 2.5. Do not ask the candidate to paste their resume.
+2. Resume already captured in `coaching_state.md` from a prior session — use it.
+3. Otherwise: ask for resume text. Accept any format — pasted text, file contents, or described section by section.
 
 Strongly recommended:
 
-- LinkedIn URL
 - 2-3 target companies
 - 3-5 initial stories
 
@@ -40,6 +49,8 @@ Don't just file the resume — analyze it for coaching-relevant signals:
    - "Invisible" contributions — important work that doesn't translate to resume bullets
 3. **Career narrative gaps**: Where the story doesn't connect. "You went from engineering at [Company A] to product at [Company B] — that transition is a story you'll need to tell well. Do you have one ready?"
 4. **Story seeds**: Resume bullets that likely have rich stories behind them — flag these for storybank building. "This bullet about reducing churn by 40% — there's probably a strong story behind that. Let's capture it."
+
+**Achievements file**: If `profile/achievements.md` exists, load it alongside the resume. Treat its contents as supplementary material: flag any quantified wins or project context in that file that don't appear on the resume as additional story seeds, and surface the highest-value items as missing resume bullets ("This achievement isn't on your resume — it should be.").
 
 Feed these findings into the Kickoff Summary output (Profile Snapshot section) and into the initial coaching plan.
 
